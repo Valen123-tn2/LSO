@@ -1,10 +1,10 @@
 m = []
 while True: 
-    print("Opciones de menu: " \
-    "1- Hambuerguesa" \
-    "2- Pizza" \
-    "3- Ensalada" \
-    "4- Salir")
+    print("Opciones de menu: ")
+    print("1- Hambuerguesa")
+    print("2- Pizza")
+    print("3- Ensalada") 
+    print("4- Salir")
     e = int(input("Ingrese su pedido: "))
     if e == 4: 
         print("su pedido es",m)
