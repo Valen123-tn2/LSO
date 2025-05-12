@@ -15,5 +15,7 @@ while True:
         m.append("Pizza") 
     elif e == 3: 
         m.append("Ensalada") 
+    else: 
+        print("Error")
 
     
